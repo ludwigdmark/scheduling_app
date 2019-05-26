@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Scheduler Starter</title>
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,500,700%7COpen+Sans:400,300">
+  <link rel="stylesheet" href="css/ratchet.min.css">
+
+  <style>
+  .content-padded {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .content-pad {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .day-cal {
+    display: inline-block !important;
+    width: 13%;    
+  }
+  .day-cal-alt {
+    display: inline-block !important;
+    border: 1px solid #ccc;
+    width: 13%;    
+    border-radius: 50px;
+    color: lightgray;
+  }
+  .week-cal {
+    text-align: center;
+    width: 100%;
+  }
+  </style>
+</head>
+
+<body>
+
+  <header class="bar bar-nav">
+    <h1 class="title">Push</h1>
+  </header>
+
+  <nav class="bar bar-tab">
+    <a class="tab-item active" href="#">
+      <span class="icon icon-home"></span>
+      <span class="tab-label">Home</span>
+    </a>
+    <a class="tab-item" href="#">
+      <span class="icon icon-person"></span>
+      <span class="tab-label">Profile</span>
+    </a>
+    <a class="tab-item" href="#">
+      <span class="icon icon-star-filled"></span>
+      <span class="tab-label">Favorites</span>
+    </a>
+    <a class="tab-item" href="#">
+      <span class="icon icon-search"></span>
+      <span class="tab-label">Search</span>
+    </a>
+    <a class="tab-item" href="#">
+      <span class="icon icon-gear"></span>
+      <span class="tab-label">Settings</span>
+    </a>
+  </nav>
+
+
+  <div class="content">
+      <div class="content-padded">
+          <p class="content-pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco.</p>
+          <p class="week-cal">
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+        </p>
+        <p class="week-cal">
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myPopover"><span class="day-cal btn btn-positive">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+        </p>
+        <p class="week-cal">
+          <a href="#myModalexample"><span class="day-cal btn-primary btn">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn-primary btn">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn-primary btn">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn-primary btn">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn-primary btn">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn-primary btn">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn-primary btn">31</span></a>
+        </p>
+        <p class="week-cal">
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+        </p>
+        <p class="week-cal">
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          <a href="#myModalexample"><span class="day-cal btn btn-primary">31</span></a>
+          
+          <a href="#myModalexample"><span class="day-cal-alt btn btn-primary btn-outlined">1</span></a>
+          <a href="#myModalexample"><span class="day-cal-alt btn btn-primary btn-outlined">1</span></a>
+          <a href="#myModalexample"><span class="day-cal-alt btn btn-primary btn-outlined">1</span></a>
+          <a href="#myModalexample"><span class="day-cal-alt btn btn-primary btn-outlined">1</span></a>
+        </div>
+      <div class="bar bar-standard">
+          <a href="#myModalexample">
+            <button class="btn btn-block">Block level button</button>
+          </a>
+        </div>
+      <ul class="table-view">
+        <li class="table-view-cell">
+          <a class="navigate-right" href="../two.html" data-transition="slide-in">
+            Load new page with push
+          </a>
+        </li>
+      </ul>
+
+  </div>
+  <div id="myModalexample" class="modal">
+    <div class="content">
+      <header class="bar bar-nav">
+        <a class="icon icon-close pull-right" href="#myModalexample"></a>
+        <h1 class="title">Modal</h1>
+      </header>
+      <ul class="table-view">
+        <li class="table-view-cell">Item1</li>
+        <li class="table-view-cell">Item2</li>
+        <li class="table-view-cell">Item3</li>
+        <li class="table-view-cell">Item4</li>
+        <li class="table-view-cell">Item5</li>
+        <li class="table-view-cell">Item6</li>
+        <li class="table-view-cell">Item7</li>
+        <li class="table-view-cell">Item8</li>
+        <li class="table-view-cell">Item1</li>
+        <li class="table-view-cell">Item2</li>
+        <li class="table-view-cell">Item3</li>
+        <li class="table-view-cell">Item4</li>
+        <li class="table-view-cell">Item5</li>
+        <li class="table-view-cell">Item6</li>
+        <li class="table-view-cell">Item7</li>
+        <li class="table-view-cell">Item8</li>
+        <li class="table-view-cell">Item1</li>
+        <li class="table-view-cell">Item2</li>
+        <li class="table-view-cell">Item3</li>
+        <li class="table-view-cell">Item4</li>
+        <li class="table-view-cell">Item5</li>
+        <li class="table-view-cell">Item6</li>
+        <li class="table-view-cell">Item7</li>
+        <li class="table-view-cell">Item8</li>
+        <li class="table-view-cell">Item1</li>
+        <li class="table-view-cell">Item2</li>
+        <li class="table-view-cell">Item3</li>
+        <li class="table-view-cell">Item4</li>
+        <li class="table-view-cell">Item5</li>
+        <li class="table-view-cell">Item6</li>
+        <li class="table-view-cell">Item7</li>
+        <li class="table-view-cell">Item8</li>
+        <li class="table-view-cell">Item1</li>
+        <li class="table-view-cell">Item2</li>
+        <li class="table-view-cell">Item3</li>
+        <li class="table-view-cell">Item4</li>
+        <li class="table-view-cell">Item5</li>
+        <li class="table-view-cell">Item6</li>
+        <li class="table-view-cell">Item7</li>
+        <li class="table-view-cell">Item8</li>
+        <li class="table-view-cell">Item1</li>
+        <li class="table-view-cell">Item2</li>
+        <li class="table-view-cell">Item3</li>
+        <li class="table-view-cell">Item4</li>
+        <li class="table-view-cell">Item5</li>
+        <li class="table-view-cell">Item6</li>
+        <li class="table-view-cell">Item7</li>
+        <li class="table-view-cell">Item8</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/ratchet.min.js"></script>
+
+</body>
+
+</html>
