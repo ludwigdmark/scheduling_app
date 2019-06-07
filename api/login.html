@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Scheduler</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,500,700%7COpen+Sans:400,300">
+  <link rel="stylesheet" href="css/ratchet.min.css">
+  <style>
+    .content {
+      background-color: #6495ed;
+    }
+    .title {
+      background-color: #302579;
+      color: cornflowerblue;
+      font-weight: 700;
+    }
+    input {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header class="bar bar-nav">
+    <h1 class="title">Login</h1>
+  </header>
+
+  
+
+  <div class="content">
+    <br>    <img width="100%" src="images/s_logo_transparent.png">
+    <form action="/login" method="post">
+      <input name="username" type="text" placeholder="Username">
+      <input name="password" type="password" placeholder="Password">
+      <button class="btn btn-block">Login</button>
+    </form>
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/ratchet.min.js"></script>
+</body>
+</html>
